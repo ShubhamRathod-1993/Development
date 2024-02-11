@@ -995,4 +995,5 @@ item-schemas/_internal
 airflow_home/*.out
 airflow_home/*.err
 airflow_home/*.pid
+airflow_home/logs
 dumps
