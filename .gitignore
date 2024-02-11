@@ -984,3 +984,15 @@ generateItemSchemasMarkdown.yaml
 item-schemas/test*
 
 item-schemas/_internal
+*.db
+*.zip
+*.zip
+*.zip
+
+*.csv
+*.ini
+*.log
+airflow_home/*.out
+airflow_home/*.err
+airflow_home/*.pid
+dumps
