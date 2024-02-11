@@ -992,3 +992,6 @@ item-schemas/_internal
 *.csv
 *.ini
 *.log
+airflow_home/*.out
+airflow_home/*.err
+airflow_home/*.pid
