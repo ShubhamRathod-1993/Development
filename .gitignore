@@ -984,3 +984,11 @@ generateItemSchemasMarkdown.yaml
 item-schemas/test*
 
 item-schemas/_internal
+*.db
+*.zip
+*.zip
+*.zip
+
+*.csv
+*.ini
+*.log
