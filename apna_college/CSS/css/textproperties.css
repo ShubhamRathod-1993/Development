@@ -1,0 +1,31 @@
+h1 {
+    text-align: center;
+    text-decoration: double red  underline;
+    letter-spacing: 10px;
+    /* font-size: 50px; */
+    font-family:Arial;
+}
+
+h3{
+    /* text-align: right; */
+    text-align: start;
+    text-decoration: wavy pink line-through;
+}
+
+p{
+    /* text-align: right; */
+    text-align: justify;
+    font-weight: 400;
+    line-height: 5.5 * normal;
+    
+}
+
+h2{
+    font-weight: 800;
+    text-decoration:dotted blue overline;
+    font-family: avant garde, didot, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
