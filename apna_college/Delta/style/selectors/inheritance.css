@@ -1,0 +1,26 @@
+/* div {
+    background-color: blue;
+}
+ul {
+    background-color: red;
+} */
+
+div{
+    background-color: yellow;
+}
+
+/* form {
+    background-color: red;
+} */
+
+input{
+    background-color: inherit;
+}
+
+button {
+    background-color: inherit;
+}
+
+button:hover {
+    background-color: pink;
+}

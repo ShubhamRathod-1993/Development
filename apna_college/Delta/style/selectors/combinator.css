@@ -1,0 +1,33 @@
+/* the css which combine mutiple selector
+eg. + */
+/* adjacent sibling combinator */
+/* eg. all h3 that come immidiately after any paragraph */
+/* e.g  */
+/* p + h3 {
+    property : value;
+} */
+
+/* p + h3 {
+    text-decoration: underline;
+}
+
+.upvote + button {
+    background-color: cornflowerblue;
+    color: blue;
+} */
+
+
+/* child combinator */
+/* eg. select all button which are direct children of spans 
+span > button {
+    property : value;
+    }
+
+*/
+/* div > input {
+    background-color: rgb(133, 55, 81);
+}
+
+nav> ul {
+    background-color: greenyellow;
+} */
