@@ -1,0 +1,137 @@
+/* Universal selector */
+/* * {
+    color : green;
+} */
+
+
+
+/* element selector */
+/* h3 {
+    color : magenta;
+}
+
+h1 {
+    color: #b92b27;
+} */
+
+/* h1, h3 {
+    color: #b92b27;
+} */
+
+
+
+/* id selector */
+/* #login{
+    color: magenta;
+    background-color: greenyellow;
+}
+
+#signup {
+    color: greenyellow;
+    background-color: magenta;
+} */
+
+
+/* class selector */
+/* .follow{
+    color: red;
+}
+
+.upvote{
+    background-color: magenta;
+} */
+
+/* descendent selector */
+/* p a {
+    color: green;
+    background-color: yellow;
+} */
+
+/* attribute selector */
+/* select elements based on the presence or value of a given attribute. 
+input[attrb=value]{
+    color: red;
+}
+*/
+
+/* input[type="text"]{
+    background-color: pink;
+    color: red;
+}
+
+input[type="password"]{
+    background-color: pink;
+    color: green;
+} */
+
+/* input[type]{
+    background-color: burlywood;
+}
+ */
+
+ /* :not() pseudo-class selects elements that do not match a list of selectors. It can be used to exclude certain elements from a selection without having to reverse the order of the document
+/* :checked - pseudo-class selects any radio/checkbox that is currently checked (selected) by the user.
+*   It can be used to style an element when it's being selected, like making the text color turn red when a checkbox is ticked.
+*   It can be used to target styles for selected checkboxes and radio buttons, like this :
+input[type="radio"]:checked ~ label{
+    color: blue;
+} */
+
+/* button:hover{
+    color: magenta;
+    background-color: yellow;
+}
+
+h3:hover{
+text-decoration: underline;}
+/* specificity */
+/* 
+button:active{
+    background-color:  green;
+}
+
+p:active {
+    font-weight: bold;
+    color: green;
+}  */
+
+/* input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bold;
+} */
+
+/* :not() - The negation CSS pseudo-class represents an element that does not match a list of selectors.
+It can be used to exclude certain elements from a selection, like this :
+div:not(.red){
+    border: 2px solid black;
+} */
+
+/* nth-of-type(n) - Selects every nth occurrence of a specified type of element within the document.
+The index starts at 0. So the first occurrence is 0, second occurrence is  1, third is 2 etc.
+Eg., div:nth-of-type(3) selects the third <div> in the HTML code.
+*/
+.post:nth-of-type(2){
+    background-color: red;
+ }
+
+div:nth-of-type(2){
+    background-color: red;
+ }
+
+/* .container > .item:first-child {
+    color: red;
+}
+
+.container > .item:last-child {
+    color: blue;
+} */
+
+/* .container > .item:only-child {
+    color: yellow;
+} */
+
+/* .container > .item:nth-child(even) {
+    background-color: lightgray;
+}
+
+

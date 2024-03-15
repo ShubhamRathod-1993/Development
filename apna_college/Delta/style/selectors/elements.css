@@ -1,0 +1,44 @@
+h1::first-letter{
+    color: magenta;
+}
+
+p::first-line{
+    color: palegreen;
+}
+
+p::selection{
+    background-color: palegreen;
+}
+
+/* CSS Cascading stylesheet */
+/* last applied css will be active for the same element even though multiple css are applied. sequence of css  is important in cascading nature. 
+html,  */
+/* body {height: 100%; font-family: Arial;}
+body {display: flex; justify-content: center; align-items: center;} */
+
+/* selector specificity : 
+def : specificity is an algorithm that calculates the weight that is applied to a given css declaration. */
+
+
+/* Important : to show the most specific thing in document.
+#myid {font-size:24px !important;} /* This will override any other declarations of "font-size" for this element with id="myid".  If there are two rules with same specificity then browser will apply the last one it encounters */
+
+h3{
+    background-color: antiquewhite !important;
+}
+
+h3{
+    background-color: red;
+}
+
+/*  Selector Combinators : 
+    1) Descendant combinator (space or no space between selectors) : p span
+    2) Child combinator : direct child (only one level down) : div > p
+    3) Adjacent sibling combinator (+) : first + second
+    4) General sibling combinator (:) : first ~ second
+    5) Column combinator | : first | second
+*/
+
+/* div.container {background-color: lightblue;} class and element */
+/* #demo                               {font-size: 18px;}   id only             */
+
